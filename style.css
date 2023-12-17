@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+}
+
+/* header section */
+.header {
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    height: 980px;
+    margin-bottom: 0px;
+}
+
+.thinks {
+    text-align: right;
+    color: #FFF;
+    padding-right: 230px;
+    padding-left: 1040px;
+
+}
+
+.thinks-title {
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 210px;
+    margin-bottom: 24px;
+
+}
+
+.thinks-description {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.btn-contact {
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* <!-- My failures of previous year --> */
+.failures-previous {
+    display: flex;
+    padding: 210px;
+}
+
+.previous-year {
+    margin-left: 190px;
+    margin-right: 340px;
+}
+
+.previous-year-title {
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 250px;
+}
+
+.previous-year-description {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+/* My Plans Section */
+.plans-header {
+    text-align: center;
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 245px;
+    padding-right: 245px;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans-title {
+    color: var(--Dark-01, #151414);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plans-description {
+    color: var(--Dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 136px;
+}
+.underline{
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-bottom: 50px;
+}
+
+/* Always Keep a Positive Mindset */
+.mindset-header {
+    background-repeat: no-repeat;
+    background-image: url(images/gradient1.png), url(images/watch.png);
+    padding: 80px;
+    margin-left: 360px;
+    margin-right: 230px;
+    margin-bottom: 140px;
+
+}
+
+.positive {}
+
+.positive-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-right: 720px;
+    margin-left: 5px;
+}
+
+.positive .btn-contact {
+    margin-left: 5px;
+}
+
+/* Footer */
+
+.footer-content{
+    background: var(--Dark-01, #151414);
+    height: 580px;
+    display: flex;
+}
+
+.future {
+    /* margin-left: 230px; */
+    padding-left: 230px;
+}
+
+.future2 {
+margin-left: 730px;
+margin-right: 430px;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-top: 180px;
+
+
+}
+
+.future-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.future-description2 {
+    margin-bottom: 18px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.future-description3 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.btn-subscribe{
+    height: 64px;
+    background: #005FAC;
+    width: 170.106px;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.email{
+    padding: 24px 158px 21px 21px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
