@@ -42,6 +42,13 @@
 }
 
 /* <!-- My failures of previous year --> */
+
+.update{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 .failures-previous {
     display: flex;
     padding: 210px;
